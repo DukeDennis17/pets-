@@ -1,0 +1,128 @@
+/* Vispārējie stili */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f8ff; /* Gaiši zils fons */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ziemassvētku ievads */
+.christmas-intro {
+  background-color: #81c6f5; /* Gaiši debeszils */
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.christmas-intro h1 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+
+.christmas-intro p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Iemesli */
+.reasons {
+  padding: 50px 20px;
+}
+
+.reasons h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1c3c5b;
+}
+
+.reasons ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reasons li {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reasons li h3 {
+  font-size: 1.8em;
+  margin-left: 20px;
+  color: #1c3c5b;
+}
+
+.reasons li p {
+  font-size: 1.1em;
+  margin-left: 20px;
+  color: #555;
+}
+
+.reasons li i {
+  font-size: 3em;
+  color: #1c3c5b;
+}
+
+/* Jautājumu sadaļa */
+.questions {
+  padding: 50px 20px;
+  background-color: #f1f8ff;
+}
+
+.questions h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1c3c5b;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion-button {
+  background-color: #81c6f5;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.accordion-button:hover {
+  background-color: #4a90e2;
+}
+
+.accordion-content {
+  padding: 0 20px;
+  background-color: #fff;
+  display: none;
+  font-size: 1.1em;
+  color: #555;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #81c6f5; /* Gaiši debeszils */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
